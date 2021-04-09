@@ -1,0 +1,1186 @@
+body {
+    margin: 0;
+}
+
+
+/* h1 encabezado - caracteristicas actualizadas */
+
+h1 {
+    color: #fff;
+    font-family: 'Spectral';
+    font-size: 35vmin;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 40px 40px 40px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Spectral';
+    font-size: 30vmin;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.encabezado-fem {
+    color: #bd0000ff;
+    font-family: 'Spectral';
+    font-size: 30vmin;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Spectral';
+    font-size: 30vmin;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+
+/*contenedor para la clase dos-columnas*/
+
+.contenedor {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+
+/*t-contenedor para la clase tres-columnas*/
+
+.t-contenedor {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+
+/*test-contenedor para la clase tres-columnas*/
+
+.test-contenedor {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*HEADER*/
+
+
+/* div clase flex-menu utilizando caracteristicas de flexbox*/
+
+.flex-menu {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    font-size: 3vmin;
+    margin: 20px;
+}
+
+
+/* img caracteristicas de logo*/
+
+.flex-menu img {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+/* nav - navegacion menú - flexbox*/
+
+.flex-menu .navegacion-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    margin: 0;
+}
+
+.flex-menu .navegacion-menu a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.flex-menu .navegacion-menu a:hover {
+    color: rgb(0, 193, 207);
+}
+
+
+/*DROPDOWN Lista de navegación - list-style:none;*/
+
+.dropbtn {
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: rgb(0, 193, 207);
+}
+
+
+/*formulario buscador*/
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.buscador label {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+}
+
+.buscador label:hover {
+    color: rgb(0, 193, 207);
+}
+
+.buscador input {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    align-content: center;
+}
+
+
+/*ENCABEZADOS*/
+
+.encabezado-titulo {
+    background: #202020ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0 100px 0;
+}
+
+.encabezado-titulo p {
+    background: #01bebe24;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+    padding: 20px 75px 20px 75px;
+}
+
+.encabezado-titulo p {
+    color: #fff;
+    font-family: 'Spectral';
+    font-size: 22vmin;
+    text-transform: unset;
+    text-align: justify;
+}
+
+
+/*ANCHOR - VER MÁS*/
+
+.encabezado-titulo a {
+    color: #01bebe;
+    font-family: 'Spectral';
+    font-size: 2.8vmin;
+    text-transform: unset;
+}
+
+
+/*FIN HEADER*/
+
+
+/*------------------------------------------------------*/
+
+
+/*INICIO DEL CONTENIDO*/
+
+
+/*SECCIONES*/
+
+main .seccion-obj {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main .seccion-obj a {
+    background-color: rgb(0, 160, 160);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18vmin;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main .seccion-obj a:hover {
+    background-color: rgb(1, 121, 101);
+}
+
+
+/*Separadores encabezados*/
+
+.separador {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.fem-separador {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.separador-test {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*PRIMERA SECCIÓN - OBJETIVO - Posicionamiento de dos columnas*/
+
+.dos-columnas {
+    flex-basis: Calc( 50% - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*hrertical divición de la primera linea vertical*/
+
+.hrvertical {
+    border-left: 1px solid grey;
+    height: 300px;
+}
+
+main .dos-columnas hr {
+    width: 100%;
+    height: .1px;
+    background-color: #000000;
+    border: .1px none #2b2929;
+    box-shadow: 0px 2px 10px #252525;
+}
+
+main .dos-columnas p {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: initial;
+    font-size: 16vmin;
+    text-align: justify;
+    margin: 0;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*SEGUNDA SECCION - Posicionamiento de dos columnas*/
+
+.tipos-dos-columnas {
+    flex-basis: Calc( 40% - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*hrertical divición de la primera linea vertical*/
+
+.hrvertical {
+    border-left: 1px solid grey;
+    height: 300px;
+}
+
+main .tipos-dos-columnas hr {
+    width: 100%;
+    height: .1px;
+    background-color: #000000;
+    border: .1px none #2b2929;
+    box-shadow: 0px 2px 10px #252525;
+}
+
+main .tipos-dos-columnas p {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: initial;
+    font-size: 16vmin;
+    text-align: justify;
+    margin: 0;
+}
+
+
+/*------------------------------------------------------*/
+
+body {
+    margin: 0;
+}
+
+
+/*Configuracion de imagenes verticales*/
+
+.img-parrafo {
+    width: auto;
+    height: auto;
+    max-width: 30vmax;
+}
+
+.img-carusel {
+    width: auto;
+    height: auto;
+    max-width: 30vmax;
+    max-height: 40vmax;
+}
+
+
+/*Configuracion de imagenes horizontales*/
+
+.img-horizontal {
+    width: auto;
+    height: auto;
+    max-width: 40vmax;
+}
+
+
+/* h1 encabezado - caracteristicas actualizadas */
+
+h1 {
+    color: #fff;
+    font-family: 'Spectral';
+    font-size: 35vmin;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 40px 40px 40px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Spectral';
+    font-size: 30vmin;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.encabezado-fem {
+    color: #bd0000ff;
+    font-family: 'Spectral';
+    font-size: 5.5vmin;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Spectral';
+    font-size: 30vmin;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+
+/*contenedor para la clase dos-columnas*/
+
+.contenedor {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+
+/*t-contenedor para la clase tres-columnas*/
+
+.t-contenedor {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+
+/*test-contenedor para la clase tres-columnas*/
+
+.test-contenedor {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*HEADER*/
+
+
+/* div clase flex-menu utilizando caracteristicas de flexbox*/
+
+.flex-menu {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* img caracteristicas de logo*/
+
+.flex-menu img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 100%;
+    margin: 2px;
+}
+
+
+/* nav - navegacion menú - flexbox*/
+
+.flex-menu .navegacion-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-menu .navegacion-menu a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.flex-menu .navegacion-menu a:hover {
+    color: rgb(0, 193, 207);
+}
+
+
+/*DROPDOWN Lista de navegación - list-style:none;*/
+
+.dropbtn {
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: rgb(0, 193, 207);
+}
+
+
+/*formulario buscador*/
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.buscador label {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+}
+
+.buscador label:hover {
+    color: rgb(0, 193, 207);
+}
+
+.buscador input {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    align-content: center;
+}
+
+
+/*ENCABEZADOS*/
+
+.encabezado-titulo {
+    background: #202020ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0 100px 0;
+}
+
+.encabezado-titulo p {
+    background: #01bebe24;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+    padding: 20px 75px 20px 75px;
+}
+
+.encabezado-titulo p {
+    color: #fff;
+    font-family: 'Spectral';
+    font-size: 3.5vmin;
+    text-transform: unset;
+    text-align: justify;
+}
+
+
+/*ANCHOR - VER MÁS*/
+
+.encabezado-titulo a {
+    color: #01bebe;
+    font-family: 'Spectral';
+    font-size: 3.5vmin;
+    text-transform: unset;
+}
+
+.encabezado-titulo a:hover {
+    color: #02e6e6;
+}
+
+
+/*FIN HEADER*/
+
+
+/*------------------------------------------------------*/
+
+
+/*INICIO DEL CONTENIDO*/
+
+
+/*SECCIONES*/
+
+main .seccion-obj {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main .seccion-obj a {
+    background-color: rgb(0, 160, 160);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmin;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main .seccion-obj a:hover {
+    background-color: rgb(1, 121, 101);
+}
+
+
+/*Separadores encabezados*/
+
+.separador {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.fem-separador {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.test-separador {
+    display: block;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*PRIMERA SECCIÓN - OBJETIVO - Posicionamiento de dos columnas*/
+
+.dos-columnas {
+    flex-basis: Calc( 50% - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*hrertical divición de la primera linea vertical*/
+
+.hrvertical {
+    border-left: 1px solid grey;
+    height: 300px;
+}
+
+main .dos-columnas hr {
+    width: 100%;
+    height: .1px;
+    background-color: #000000;
+    border: .1px none #2b2929;
+    box-shadow: 0px 2px 10px #252525;
+}
+
+main .dos-columnas p {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: initial;
+    font-size: 2.8vmin;
+    text-align: justify;
+    margin: 0;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*SEGUNDA SECCION - Posicionamiento de dos columnas*/
+
+.tipos-dos-columnas {
+    flex-basis: Calc( 40% - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*hrertical divición de la primera linea vertical*/
+
+.hrvertical {
+    border-left: 1px solid grey;
+    height: 300px;
+}
+
+main .tipos-dos-columnas hr {
+    width: 100%;
+    height: .1px;
+    background-color: #000000;
+    border: .1px none #2b2929;
+    box-shadow: 0px 2px 10px #252525;
+}
+
+main .tipos-dos-columnas p {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: initial;
+    font-size: 2.7vmin;
+    text-align: justify;
+    margin: 0;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*tres-columnas NOTA: no quitar row, wrap, para que este se ajuste al navegador*/
+
+main .t-seccion-obj {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main .t-seccion-obj a {
+    color: rgb(1, 201, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmin;
+    margin-left: 5px;
+}
+
+main .t-seccion-obj a {
+    opacity: 0.7;
+}
+
+.tres-columnas {
+    flex-basis: Calc(30% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .tres-columnas p {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vmin;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+main .tres-columnas img {
+    width: auto;
+    height: auto;
+    max-width: 40vmax;
+    max-height: 40vmin;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*FEMINICIDIO*/
+
+main .fem-seccion-obj {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.cita {
+    color: rgb(134, 2, 2);
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-size: 2.5vmin;
+}
+
+main .fem-seccion-obj a {
+    background-color: #bd0000ff;
+    color: rgb(235, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmin;
+    width: 200px;
+    margin-top: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main .fem-seccion-obj a:hover {
+    background-color: rgb(71, 0, 0);
+}
+
+
+/*Dos-columnas-feminicidio*/
+
+.fem-dos-columnas {
+    flex-basis: Calc( 50% - 30px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+/*hrvertical-feminicidio*/
+
+.hrvertical-fem {
+    border-left: 2px solid #bd0000ff;
+    height: 400px;
+    margin: 0;
+}
+
+main .fem-dos-columnas p {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: initial;
+    font-size: 3vmin;
+    text-align: justify;
+}
+
+
+/*--------------------------------------------------------*/
+
+
+/*QUINTA SECCION - TEST*/
+
+
+/*TEST*/
+
+
+/*TEST*/
+
+.h-dos-test-encabezado-violencia {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5.6vmin;
+    margin-top: 60px;
+}
+
+.h-tres-test-encabezado-violencia {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.5vmin;
+    margin: 10px 0 50px 0;
+}
+
+.columnas-test-circulo {
+    flex-basis: calc( 50% - 20px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.columnas-test-circulo .circulo {
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffe600;
+}
+
+.columnas-test-circulo .fase-uno {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+.sepadador-test {
+    margin-top: 0px;
+}
+
+.contenedor {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.columnas-test {
+    flex-basis: calc( 50% - 0px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+span {
+    color: rgb(102, 0, 0);
+    text-decoration: overline;
+}
+
+span:hover {
+    color: rgb(163, 0, 0);
+}
+
+.span-ht {
+    color: rgb(252, 245, 245);
+    text-decoration: overline;
+}
+
+.span-ht:hover {
+    color: rgb(212, 16, 16);
+}
+
+
+/*--INICIO - MODIFICACION DE LA CARTA GRIS DEL TEST -->  */
+
+.encabezado-titulo-test {
+    background: #434343ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 20px 0 70px 0;
+}
+
+
+/*  <--FIN - MODIFICACION DE LA CARTA GRIS DEL TEST-------------------*/
+
+.encabezado-titulo-test .primer-parrafo {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    margin: 0 5px 20px 5px;
+}
+
+.encabezado-titulo-test .primer-parrafo {
+    color: #01bebe;
+    font-family: 'Spectral';
+    text-transform: unset;
+    font-size: 1.5vw;
+}
+
+.encabezado-titulo-test .segundo-parrafo {
+    background: #01bebe7e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+    padding: 0 5px 40px 5px;
+}
+
+.encabezado-titulo-test .segundo-parrafo {
+    color: #fff;
+    font-family: 'Spectral';
+    font-size: 1.5vw;
+    text-transform: unset;
+    text-align: justify;
+}
+
+
+/*hrertical divición de la primera linea vertical*/
+
+.hrvertical {
+    border-left: 1px solid grey;
+    height: 200px;
+}
+
+
+/*--INICIO - TEST - MODIFICACION DE PREGUNTAS-->  */
+
+
+/*--FIN - TEST - MODIFICACION DE PREGUNTAS-->  */
+
+.formulario-preguntas {
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+
+.formulario-preguntas p {
+    color: #000000;
+    font-family: 'Spectral';
+    font-size: 1.5vw;
+    text-transform: none;
+    text-align: justify;
+    align-items: center;
+}
+
+.formulario-preguntas input {
+    align-items: center;
+    font-size: 1.5vw;
+    margin: 0 10px 20px 10px;
+}
+
+.formulario-preguntas label {
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.submit {
+    display: block;
+    font-size: 1.5vw;
+    background-color: #01bebe;
+    color: #fff;
+    font-family: 'Spectral';
+    text-transform: unset;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 0%;
+    margin: 15px auto;
+}
+
+.submit:hover {
+    background-color: #008a8a;
+}
+
+
+/*---------------------------------------------------------*/
+
+
+/*VIDEO*/
+
+.h-dos-reflexion {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.reflexion-video {
+    justify-content: center;
+    background-color: rgb(44, 44, 44);
+    position: relative;
+    background-size: 100vw 300px;
+    height: 300px;
+    background-position: center;
+    margin-bottom: 150px;
+}
+
+.frame-video {
+    width: 100%;
+    height: 150%;
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.frame-video {
+    width: 100%;
+}
+
+
+/*-------------------------------------------------------*/
+
+
+/*Carousel*/
+
+.carousel {
+    background-color: rgb(163, 162, 162);
+}
+
+.d-block {
+    margin: 0 auto;
+}
+
+
+/*-------------------------------------------------------*/
+
+
+/*footer*/
+
+.flex-footer {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+}
+
+.flex-footer nav a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.3vmin;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: rgb(0, 193, 207);
+    text-decoration: underline;
+}
+
+.flex-footer nav p {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 2.3vmin;
+    margin: 10px;
+    align-items: center;
+}
+
+nav p:hover {
+    color: rgb(255, 0, 76);
+}
+
+.redes .iconos {
+    width: auto;
+    height: auto;
+    max-width: 3vmin;
+}
+
+.redes .iconos:hover {
+    color: #008a8a;
+}
+
+.contacto .iconos {
+    width: auto;
+    height: auto;
+    max-width: 15px;
+    margin: 5px;
+}
